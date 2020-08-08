@@ -1,0 +1,44 @@
+body {
+  background-color: whitesmoke;
+}
+#judul {
+  text-align:center;
+}
+#profil {
+  margin: 20px 50px 20px 20px;
+}
+img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+#ig{
+  margin-bottom: 20px;
+  text-align: center;
+}
+button{
+  background-color: cornflowerblue;
+  color: white;  
+}
+#navbar{
+  background-color: black;
+}
+#navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 14px;
+}
+#navbar li{
+  display: inline;
+  padding: 14px;
+}
+#navbar li a{
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar li:hover{
+  background-color: rgb(168, 163, 163);
+}
