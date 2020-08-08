@@ -16,7 +16,7 @@ while cap.isOpened():
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # Pass frame to our body classifier
-    bodies = body_classifier.detectMultiScale(gray, 1.2, 5)
+    bodies = body_classifier.detectMultiScale(gray, 1.2, 1)
     
     # Extract bounding boxes for any bodies identified
     for (x,y,w,h) in bodies:
